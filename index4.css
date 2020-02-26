@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(44, 44, 44);
+    margin: 0px;
+    padding: 0px;
+}
+
+#main-container {
+    width: 1200px;
+    margin-left: calc(50% - 1200px / 2);
+}
+
+header {
+    width: calc(100% - 2px);
+    height: calc(30px - 2px);
+    border: 1px solid white;
+    margin-top: calc(10% - 30px / 2);
+}
+
+#box-container1 {
+    width: calc(100% - 2px);
+    height: calc(50px - 2px);
+    border: 1px solid white;
+}
+
+#box-container1 div {
+    width: calc(600px - 2px);
+    height: calc(30px - 2px);
+    border: 1px solid white;
+    margin-left: calc(50% - 600px / 2);
+    margin-top: 10px;
+}
+
+#box-container2 {
+    width: 50%;
+    margin-left: calc(50% - 600px / 2);
+    margin-top: calc(30% - 600px / 2);
+    display: flex;
+}
+
+.flexbox1 {
+    height: calc(150px - 2px);
+    border: 1px solid white;
+    flex-grow: 1;
+}
+
+.flexbox1:nth-child(2) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#box-container3 {
+    width: 50%;
+    margin-left: calc(50% - 600px / 2);
+    margin-top: calc(10% - 200px / 2);
+    display: flex;
+}
+
+.flexbox2 {
+    height: calc(150px - 2px);
+    border: 1px solid white;
+    flex-grow: 1;
+}
+
+.flexbox2:nth-child(2) {
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-grow: 3;
+}
+
+#box-container4 {
+    width: 50%;
+    margin-left: calc(50% - 600px / 2);
+    margin-top: calc(10% - 200px / 2);
+    display: flex;
+}
+
+.flexbox3 {
+    height: calc(150px - 2px);
+    border: 1px solid white;
+    flex-grow: 1;
+}
+
+.flexbox3:first-child {
+    flex-grow: 3;
+}
+
+.flexbox3:nth-child(2) {
+    margin-left: 10px;
+    margin-right: 10px;
+}
