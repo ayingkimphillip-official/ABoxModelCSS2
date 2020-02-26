@@ -47,6 +47,8 @@ header {
     flex-grow: 0.2;
     height: calc(500px - 2px);
     border: 1px solid white;
+    flex-direction: row;
+    align-items: center;
 }
 
 #box1 {
@@ -54,7 +56,7 @@ header {
     height: calc(25px - 2px);
     border: 1px solid white;
     margin-left: calc(50% - 25px / 2);
-    margin-top: calc(200px - 25px / 2);
+    /* margin-top: calc(200px - 25px / 2); */
 }
 
 .flexbox3 {

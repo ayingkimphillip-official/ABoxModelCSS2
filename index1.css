@@ -43,6 +43,8 @@ header {
 .flexbox2 {
     border: 1px solid white;
     flex-grow: 1;
+    display: flex;
+    align-items: center;
 }
 
 .flexbox2:last-child {
@@ -57,7 +59,7 @@ header {
     width: calc((30% / 2) - 2px);
     height: calc(90% - 2px);
     margin-left: calc(50% - (30% / 2) / 2);
-    margin-top: calc(50% - (90% - 2px) / 2);
+    /* margin-top: calc(50% - (90% - 2px) / 2); */
 }
 
 .flexbox3 {
