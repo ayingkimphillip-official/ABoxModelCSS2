@@ -16,7 +16,7 @@ body {
 }
 
 .box-container1:first-child {
-    flex-grow: 0.4;
+    flex-grow: 0.5;
     height: calc(800px - 2px);
     border: 1px solid white;
 }
@@ -31,7 +31,7 @@ body {
 }
 
 .box-container2:first-child {
-    flex-grow: 1;
+    flex-grow: 0.5;
     display: flex;
     align-items: center;
 }
