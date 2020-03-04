@@ -18,6 +18,7 @@ body {
 .box-container1:first-child {
     height: calc(800px - 2px);
     border: 1px solid white;
+    flex-grow: 0.5;
 }
 
 .box-container1:last-child {
